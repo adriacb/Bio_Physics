@@ -44,7 +44,7 @@ Library for obtaining amino acid atom types and partial charges (based on AMBER 
 ## Alanine_scanning.py
 
 
-	$ python3 alanine_scanning.py pdb.pdb1 pdb.pdb1 --c1 A --c2 B --maxdist 10.0
+	$ python3 alanine_scanning.py pdb.pdb1 pdb.pdb1 --c1 A --c2 B --maxdist 8.0
 
 Where pdb.pdb1 and pdb.pdb1 is the same biological unit, without heteroatoms, and fixed with biobb_structure_checking
 and with hydrogen added with add_hydrogen
