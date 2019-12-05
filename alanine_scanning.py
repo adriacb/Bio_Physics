@@ -9,8 +9,8 @@ Third Step: Check the change of energies for each residue with ALANINE muthagene
 Use a pdb File with no HETAM, use Biobb_structure_checking for fixside and add_hydrogen functions.
 For more information look at read_me file
 
-USAGE: python3 res_dist.py 6axg_hyd_noHETAM.pdb1 6axg_hyd_noHETAM.pdb1 --c1 A --c2 B --maxdist 10.0
-       python3 res_dist.py 2ki5_hyd_noHETAM.pdb1 2ki5_hyd_noHETAM.pdb1 --c1 A --c2 B --maxdist 10.0
+USAGE: python3 alanine_scanning.py 6axg_opt.pdb1 6axg_opt.pdb1 --c1 A --c2 B --maxdist 8.0
+       python3 alanine_scanning.py 2ki5_opt.pdb1 2ki5_opt.pdb1 --c1 A --c2 B --maxdist 8.0
 """
 import argparse
 import os
