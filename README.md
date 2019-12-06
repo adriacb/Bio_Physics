@@ -29,18 +29,6 @@ See also:
 	$ check_structure fixed
 	$ chec_structure add_hydrogen
 
-## forcefield.py
-Module for forcefield parameters management
-
-## residue_library.py
-Module for Residue Library management
-
-## data/vdwprm
-Simple vdw parameters (based on AMBER ff)
-
-## data/aaLib.lib
-Library for obtaining amino acid atom types and partial charges (based on AMBER ff)
-
 ## Alanine_scanning.py
 
 
@@ -54,21 +42,16 @@ External dependencies
     Bio.PDB.NeighborSearch (BioPython)
     Bio.PDB.PDBParser (Biopython)
 
-## 1. Objective:
+## Output_files
 
-To evaluate the relative contribution of interface residues to the interaction energy in a protein-protein complex.
+	2ki5log.gdoc	The general output of the script for 2ki5
+	6axg_log.gdoc	The general output of the script for 6axg
 
-## 2. Strategy:
-
-- Determine amino acid residues that form the interface between the complex components
-- Determine the contribution to the stability of the complex by mimicking an Ala-scanning experiment, i.e. replacing each residue in turn by Ala and evaluating the changes in the inter-complex interaction energy.
-- Compare the results obtained between two types of complexes, a permanent interface (2ki5), and a temporary one (6axg)
-
-## 3. Preparation:
-
-- Obtain the required structures from the PDB.
-- Check at PDB which is the composition of a “Biological unit”. Remove all chains but those involved in the biological unit, if necessary
-- Remove all heteroatoms
-- Perform a quality checking on the structures, and add missing side-chains and hydrogen atoms.
-
-
+	2ki5.pse	Pymol
+	6axg.pse	Pymol
+	chain_A_2ki5_opt.pdb.pdb	PDB Chain A 2ki5
+	chain_A_2ki5_opt.pdb.txt	Output residues (Contacts 1)
+	chain_A_6axg_opt.pdb.pdb	PDB Chain A 6axg
+	chain_A_6axg_opt.pdb.txt	Output residues (Contacts 2)
+	chain_B_2ki5_opt.pdb.pdb	PDB Chain B 2ki5
+	chain_B_6axg_opt.pdb.pdb	PDB Chain B 6axg
