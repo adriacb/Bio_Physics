@@ -14,6 +14,7 @@ Adrià Cabello Blanque
 	- Install Biopython: conda install -c anaconda biopython
 	- Install Biobb_Structure_checking: conda install -c bioconda biobb_structure_checking
 	- Install Numpy: conda install -c anaconda numpy
+	- Install Matplotlib: conda install -c conda-forge matplotlib
 	- conda config --add channels bioconda
 	- Activate environment: source activate name_env
 
