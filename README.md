@@ -7,17 +7,18 @@ Adrià Cabello Blanque
 - Python >= 3.6
 - Biopython module (>= 1.72)
 - Molecular viewer (pymol, chimera)
-- csh install.scr
+- Gfortran
 - biobb_structure_checking python module
 - Anaconda
 	- Create a new environment: conda create -n name_env
-    - Install Biopython: conda install -c anaconda biopython
+    	- Install Biopython: conda install -c anaconda biopython
 	- Install Biobb_Structure_checking: conda install -c bioconda biobb_structure_checking
 	- Install Numpy: conda install -c anaconda numpy
 	- conda config --add channels bioconda
 	- Activate environment: source activate name_env
 
-• Clone this git-hub link in your work Folder: $ git clone https://github.com/jlgelpi/Biophysics.git
+- Clone this git-hub link in your work Folder: $ git clone https://github.com/jlgelpi/Biophysics.git
+- csh install.scr in soft/NACCESS directory
 
 See also:
 - https://github.com/jlgelpi/Biophysics/tree/master/Examples
