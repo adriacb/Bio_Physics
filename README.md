@@ -7,6 +7,7 @@ Adrià Cabello Blanque
 - Python >= 3.6
 - Biopython module (>= 1.72)
 - Molecular viewer (pymol, chimera)
+- csh install.scr
 - biobb_structure_checking python module
 - Anaconda
 	- Create a new environment: conda create -n name_env
