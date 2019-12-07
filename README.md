@@ -11,7 +11,7 @@ Adrià Cabello Blanque
 - biobb_structure_checking python module
 - Anaconda
 	- Create a new environment: conda create -n name_env
-    	- Install Biopython: conda install -c anaconda biopython
+	- Install Biopython: conda install -c anaconda biopython
 	- Install Biobb_Structure_checking: conda install -c bioconda biobb_structure_checking
 	- Install Numpy: conda install -c anaconda numpy
 	- conda config --add channels bioconda
