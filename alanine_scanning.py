@@ -28,9 +28,9 @@ from residue_library import ResiduesDataLib
 from Bio.PDB.Residue import Residue, DisorderedResidue
 ''' MAIN - Parsing the PDB FILE '''
 parser = argparse.ArgumentParser (
-    prog='res_dist',
-    description='Getting CA pairs within max dist',
-    usage='res_dist.py [options] pdb_file [> output_file]'
+    prog='alanine_scanning',
+    description='Alanine Scanning',
+    usage='alanine_scanning.py [options] pdb_file [> output_file]'
 )
 
 parser.add_argument(
