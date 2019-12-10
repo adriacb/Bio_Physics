@@ -271,7 +271,7 @@ def calc_elec_int2(at,at2):
         e_r = mehler_solmajer(dist)
         total += 332.16*((at.xtra['charge'] * at2.xtra['charge']) / (e_r * dist))
     except:
-        total += 1
+        total += 0
     return total
 
 
